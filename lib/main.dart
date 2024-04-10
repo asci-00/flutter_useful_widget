@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sample/features/emoji_animation.dart';
 import 'package:sample/features/fade_in_title.dart';
 
 void main() => runApp(const NestedScrollViewExampleApp());
@@ -31,6 +32,10 @@ class FlutterUsefulWidgetPage extends StatelessWidget {
     _PageInfo(
       title: 'FadeInTitle',
       page: FadeInTitleSample(),
+    ),
+    _PageInfo(
+      title: 'EmojiAnimation',
+      page: EmojiAnimationSample(),
     ),
   ];
 
